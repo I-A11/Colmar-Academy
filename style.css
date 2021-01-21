@@ -1,0 +1,151 @@
+body {
+    color: darkslategray;
+}
+
+.navbar {
+    height: 64px;
+    width: 100%;
+}
+
+.logo {
+    padding-left: 24px;
+    height:59px;
+    width: auto;
+}
+
+.navbar-brand {
+    font-size: 32px;
+}
+
+.navbar-brand-academy {
+    color: lightgray;
+}
+
+ .nav-link {
+    margin-left: 16px;
+}
+
+.container-fluid {
+    margin-right: 24px;
+}
+
+.banner, .course  {
+    background-color: lightgray;
+}
+
+.banner-image, .main-image {
+    width: 100%;
+    height: auto;
+    margin: 32px 24px;
+}
+
+.banner-learn {
+    margin-left: 34px;
+}
+
+h1 {
+    font-size: 3.2rem;
+    line-height: 2.5rem;
+    font-weight: bold;
+    color: darkslategray;
+    
+}
+
+.lorem {
+    margin-top: 2rem;
+    line-height: 1rem;
+    font-size: 1.5rem ;
+    color: darkslategray;
+}
+
+.btn-secondary {
+    width: 70%;
+}
+
+.start-here {
+    padding: 8px 0;
+}
+
+h2 {
+    margin-left: 24px;
+    color: darkslategray;
+    font-size: 2.5rem;
+}
+
+.main-paragraph  {
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+h6 {
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 36px;
+}
+
+.orientation-date, .information-campus, .guest-lecture, .Thiese-fisma {
+    margin-top: 32px;
+    margin-left: 24px;
+}
+
+.orientation-date-image, .information-campus-image, .guest-lecture-image, .Thiese-fisma-image {
+    width: 35%;
+    height: auto;
+}
+
+.orientation-date-text, .information-campus-text, .guest-lecture-text, .Thiese-fisma-text {
+    margin-left: 24px;
+   
+}
+
+
+h1.start-learning {
+   padding-top: 32px;
+   padding-bottom: 32px;
+}
+
+.course-row {
+    margin: 32px 72px;
+}
+
+
+
+.course-software-image {
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 0;
+}
+
+.course-software-text, .Thesis-software-text {
+    margin-left: 20px;
+}
+
+.thesis-video {
+    width: 100%;
+    height: auto;
+    padding: 32px 24px;
+}
+
+.thiese-fisma-bg {
+    background-color: rgb(233, 220, 220);
+}
+
+.thesis-fisma-column {
+    margin-top: 16px;
+}
+
+.Thiese-fisma-image {
+    padding-bottom: 16px;
+}
+
+.footer-bar {
+    margin-left: 24px;
+    border-top: 1px solid lightgray ;padding-top: 10px;
+}
+
+.footer-item {
+    list-style: none;
+    text-decoration: none;
+    padding: 16px;
+    
+}
