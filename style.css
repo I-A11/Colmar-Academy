@@ -91,6 +91,7 @@ h6 {
 .orientation-date-image, .information-campus-image, .guest-lecture-image, .Thiese-fisma-image {
     width: 35%;
     height: auto;
+    padding-bottom: 24px;
 }
 
 .orientation-date-text, .information-campus-text, .guest-lecture-text, .Thiese-fisma-text {
