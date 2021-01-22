@@ -91,6 +91,7 @@ h6 {
 .orientation-date-image, .information-campus-image, .guest-lecture-image, .Thiese-fisma-image {
     width: 35%;
     height: auto;
+    padding-bottom: 24px;
 }
 
 .orientation-date-text, .information-campus-text, .guest-lecture-text, .Thiese-fisma-text {
@@ -147,5 +148,23 @@ h1.start-learning {
     list-style: none;
     text-decoration: none;
     padding: 16px;
-    
 }
+ .navbar-nav-mobile {
+     display: flex; 
+     justify-content: center;
+     list-style: none;
+ }
+/*nav bar for mobile */
+
+@media screen and ( max-width: 800px ) {
+    .nave-mobile { display:inline; }
+    .nav-desktop { display:none; }
+    }
+    @media screen and ( min-width: 801px ) and ( max-width: 1024px ) {
+    .nave-mobile { display:none; }.
+    .nav-desktop { display:inline; }
+    }
+    @media screen and ( min-width: 1025px ) {
+    .nave-mobile { display:none; }
+    .nav-desktop { display:inline; }
+    }

@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white  nav-desktop">
         <div class="container-fluid">
             <img src="./resource/ic-logo.svg" alt="logo" class="logo">
             <a class="navbar-brand" href="#">COLMAR<span class="navbar-brand-academy">ACADEMY</span> </a>
@@ -39,9 +39,36 @@
             </div>
         </div>
     </nav>
+
+    <!--Nav for mobile site-->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-white  nave-mobile  ">
+        <div class="" id="navbarNav">
+            <ul class="navbar-nav-mobile">
+
+                <li class="nav-item-mobile">
+                    <a class="nav-link" aria-current="page" href="#"><img src="./resource/ic-logo.svg" alt="logo"
+                            class="logo"></a>
+                </li>
+                <li class="nav-item-mobile">
+                    <a class="nav-link" href="#"><img src="./resource/ic-on-campus.svg" alt="logo" class="logo"></a>
+                </li>
+                <li class="nav-item-mobile">
+                    <a class="nav-link" href="#"><img src="./resource/ic-online.svg " alt=" logo" class="logo"></a>
+                </li>
+                <li class="nav-item-mobile">
+                    <a class="nav-link" href="#"><img src="./resource/ic-login.svg" alt="logo" class="logo"></a>
+                </li>
+
+
+            </ul>
+        </div>
+    </nav>
+
+    <!--Nav for mobile site-->
     <div class="banner container-fluid px-0">
         <div class="row">
-            <div class="col-7">
+            <div class="col-lg-7">
                 <img src="./resource/banner.jpg" alt="banner" class="banner-image">
             </div>
             <div class=" col-5 d-flex justify-content-start align-items-center ">
@@ -61,16 +88,17 @@
     <div class="main container-fluid">
         <div class="row">
             <div class="col-7">
-                <img src="./resource/information-main.jpg" alt="reading" class="main-image">
-                <h2>It doesn't hurt to keep practicing</h2>
-                <p class="main-paragraph">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo impedit
+                <img src="./resource/information-main.jpg" alt="reading" class="main-image d-none d-md-inline ">
+                <h2 class="d-none d-md-inline">It doesn't hurt to keep practicing</h2>
+                <p class="main-paragraph d-none d-md-inline">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Explicabo impedit
                     hic consectetur, quaerat
                     vitae ad temporibus dolore, ea, nam ratione adipisci exercitationem? Incidunt dolores in quis
                     repellendus unde commodi! Dolorem adipisci exercitationem? Incidunt dolore.</p>
                 <h6> Eamet consectetur adipisicing elit.</h6>
             </div>
 
-            <div class="col-5">
+            <div class="col-lg-5">
                 <div class="orientation-date d-flex align-items-center">
                     <img src="./resource/information-orientation.jpg" alt="orientation date"
                         class="orientation-date-image">
@@ -188,17 +216,18 @@
     <div class="exhibit container-fluid">
         <h1 class="text-center start-learning">Thesis exhibit</h1>
         <div class="row thesis">
-            <div class="col-7">
+            <div class="col-md-7">
                 <video src="./resource/thesis.mp4" controls class="thesis-video"></video>
                 <div class="Thesis-software-text">
-                    <h4>Reimagine urban</h4>
-                    <p>vitae ad temporibus dolore, ea, nam ratione adipisci exercitationem? Incidunt
+                    <h4 class="d-none d-md-inline">Reimagine urban</h4>
+                    <p class="d-none d-md-inline">vitae ad temporibus dolore, ea, nam ratione adipisci exercitationem?
+                        Incidunt
                         dolores in quis repellendus unde commodi! Dolorem adipisciDolorem adipisci
                         Incidunt
                         repellendus unde commodi! Dolorem adipisci exercitationem? Incidunt dolore.</p>
                 </div>
             </div>
-            <div class="col-5 thesis-fisma-column">
+            <div class="col-5 thesis-fisma-column d-none d-md-inline">
                 <div class="row thiese-fisma-bg">
                     <div class="Thiese-fisma d-flex align-items-center">
                         <img src="./resource/thesis-fisma.jpg" alt="orientation date" class="Thiese-fisma-image">
