@@ -148,6 +148,7 @@ h1.start-learning {
     list-style: none;
     text-decoration: none;
     padding: 16px;
+<<<<<<< HEAD
 }
  .navbar-nav-mobile {
      display: flex; 
@@ -168,3 +169,7 @@ h1.start-learning {
     .nave-mobile { display:none; }
     .nav-desktop { display:inline; }
     }
+=======
+    
+}
+>>>>>>> eeb85ffe9473b528b407a2e59c0dff87bfb56216
